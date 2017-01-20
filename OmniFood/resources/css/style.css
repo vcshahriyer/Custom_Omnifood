@@ -172,16 +172,29 @@ header{
     height: 100px;
     width: auto;
     float: left;
-    margin-top: 20px;
+    margin-top: 60px;
+}
+.fix-nav{
+    width: 100%;
+    height: 9%;
+    position: fixed;
+    z-index: 1030;
 }
 .main-nav{
-    float: right;
+    width: 100%;
+    height: 100%;
     list-style-type: none;
-    margin-top: 40px;
+    margin-top: 0px;
+    background-color: #414345;
+    
 }
 .main-nav li{
     display: inline-block;
     margin-left: 40px;
+    margin-top: 10px;
+}
+.main-nav li:first-child{
+    margin-left: 25%;
 }
 .main-nav li a:link, .main-nav li a:visited{
     padding: 8px 0;
@@ -275,6 +288,42 @@ header{
     margin-right: 10px;
 }
 /*--------------------------------------------------*/
+/*OUR Chefs*/
+/*--------------------------------------------------*/
+.our-chefs{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)) ,url(img/team-bg.jpg);
+    background-attachment: fixed;
+}
+.name{
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    font-size: 80%;
+}
+.team-h3{
+    color: rgb(204, 204, 204);
+    text-align: center;
+}
+.white-line{
+    display: inline-block;
+    position: relative;
+}
+.white-line:after{
+    display: block;
+    position: absolute;
+    content: '';
+    top: 8px;
+    bottom: 8px;
+    left: 48px;
+    right: 8px;
+    border:1px solid rgba(255, 255, 255, 0.2);
+}
+.col img{
+    margin-left: 42px;
+}
+#shef-3{
+    opacity: .8;
+}
+/*--------------------------------------------------*/
 /*CITIES*/
 /*--------------------------------------------------*/
 .box img{
@@ -347,7 +396,7 @@ cite img{
     border: 0;
 } 
 .plan-price{
-    font-size: 400%;
+    font-size: 350%;
     margin-bottom: 10px;                 /*orange color : #cf6d17*/
     font-weight: 200;
     color: #cf6d17;
