@@ -126,6 +126,10 @@ section{padding: 60px 0;}
     h1{
         font-size: 150%;
         text-align: left;
-        margin-top: 25px
+        margin-top: 35px
+    }
+        .plan-price{
+        font-size: 400%;
+        font-weight: 300;
     }
 }
