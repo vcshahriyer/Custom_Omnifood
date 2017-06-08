@@ -132,8 +132,4 @@ section{padding: 60px 0;}
         font-size: 400%;
         font-weight: 300;
     }
-    .main-nav{
-        position: relative;
-        z-index: 1;
-    }
 }
