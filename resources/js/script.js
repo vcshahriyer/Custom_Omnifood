@@ -55,6 +55,10 @@ $(document).ready(function () {
         offset: '50%'
     });
     
+
+    
+    var num =19;
+    
     $('.js--wp-4').waypoint(function(direction) {
         $('.js--wp-4').addClass('animated pulse');
     }, {
@@ -66,7 +70,6 @@ $(document).ready(function () {
     }, {
         offset: '50%'
     });
-    
 
     /* Mobile navigation */
     $('.js--nav-icon').click(function() {
@@ -83,4 +86,22 @@ $(document).ready(function () {
             icon.removeClass('ion-close-round');
         }        
     });
+    
+/*    counter_up section   */
+    
+    $('.counter').counterUp({
+    delay: 10,
+    time: 1000
 });
+    
+    
+    
+});
+
+
+
+
+
+
+
+
