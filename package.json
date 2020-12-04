@@ -1,0 +1,23 @@
+{
+  "name": "custom_omnifood",
+  "version": "1.0.0",
+  "description": "<img src=\"resources/img/Omnifood.PNG\" alt=\"screenshot\">",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@shahriyer/gitautomation": "^2.0.5"
+  },
+  "scripts": {
+      "automate": "python .\\node_modules\\@shahriyer\\gitautomation\\gitAutomate.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcshahriyer/Custom_Omnifood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vcshahriyer/Custom_Omnifood/issues"
+  },
+  "homepage": "https://github.com/vcshahriyer/Custom_Omnifood#readme"
+}
